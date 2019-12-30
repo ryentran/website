@@ -1,1 +1,80 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    margin: 0;
+    background: #202020;
+    font-family: "Montserrat Light", "sans-serif";
+}
+
+.container {
+    text-align: center;
+    padding: .8em 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #303338;
+}
+
+h1 {
+    font-size: 4em;
+    color: #FFFFFF;
+}
+
+.desk {
+    width: 70%;
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+@media only screen and (min-width: 650px) {
+    .desk {
+        width: 60%;
+    }
+    h1 {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (min-width: 875px) {
+    .desk {
+        width: 50%;
+    }
+    h1 {
+        font-size: 6em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .desk {
+        width: 40%;
+    }
+    h1 {
+        font-size: 7em;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .desk {
+        width: 30%;
+    }
+    h1 {
+        font-size: 8em;
+    }
+}
